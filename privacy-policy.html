@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー - Hibi</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px;
+      color: #222;
+      line-height: 1.8;
+    }
+    h1 { font-size: 24px; margin-bottom: 8px; }
+    h2 { font-size: 18px; margin-top: 40px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    th, td { border: 1px solid #ddd; padding: 10px 14px; text-align: left; font-size: 14px; }
+    th { background: #f5f5f5; }
+    p { margin: 12px 0; }
+    .updated { color: #888; font-size: 14px; }
+  </style>
+</head>
+<body>
+
+  <h1>プライバシーポリシー</h1>
+  <p class="updated">制定日：2026年3月1日</p>
+
+  <p>Haruto Shimohira（以下「開発者」）は、アプリ「Hibi」（以下「本アプリ」）における利用者の個人情報の取扱いについて、以下のとおりプライバシーポリシーを定めます。</p>
+
+  <h2>第1条（収集する情報）</h2>
+  <p>本アプリは、以下の情報を収集します。</p>
+  <table>
+    <tr><th>データ</th><th>収集タイミング</th><th>保存先</th></tr>
+    <tr><td>ユーザーID（UUID）</td><td>アプリ起動時（匿名認証）</td><td>Supabase</td></tr>
+    <tr><td>メールアドレス</td><td>Googleアカウント連携時のみ</td><td>Supabase</td></tr>
+    <tr><td>動画・写真・サムネイル</td><td>アップロード時</td><td>Cloudflare R2</td></tr>
+    <tr><td>気分・コメント・タグ</td><td>入力時</td><td>Supabase</td></tr>
+    <tr><td>撮影日時</td><td>記録時</td><td>Supabase</td></tr>
+    <tr><td>認証トークン</td><td>ログイン時</td><td>端末ローカルのみ</td></tr>
+  </table>
+
+  <h2>第2条（収集しない情報）</h2>
+  <p>本アプリは以下の情報を収集しません。</p>
+  <ul>
+    <li>位置情報</li>
+    <li>連絡先</li>
+    <li>クラッシュレポート</li>
+    <li>広告ID</li>
+  </ul>
+
+  <h2>第3条（情報の利用目的）</h2>
+  <p>収集した情報は、以下の目的のみに使用します。</p>
+  <ul>
+    <li>本アプリのサービス提供および機能の改善</li>
+    <li>ユーザー認証およびデータの紐付け</li>
+  </ul>
+
+  <h2>第4条（第三者提供）</h2>
+  <p>開発者は、以下の場合を除き、収集した情報を第三者に提供しません。</p>
+  <ul>
+    <li>法令に基づく開示が必要な場合</li>
+    <li>ユーザーの同意がある場合</li>
+  </ul>
+
+  <h2>第5条（外部サービスへの送信）</h2>
+  <p>本アプリは、以下の外部サービスにデータを送信します。各サービスのプライバシーポリシーもご確認ください。</p>
+  <table>
+    <tr><th>サービス</th><th>用途</th><th>所在地</th></tr>
+    <tr><td>Supabase</td><td>認証・データベース</td><td>シンガポール</td></tr>
+    <tr><td>Cloudflare R2</td><td>動画・写真の保存</td><td>Cloudflare管理下</td></tr>
+  </table>
+
+  <h2>第6条（データの削除）</h2>
+  <p>ユーザーはアプリ内の設定画面からアカウントを削除できます。アカウント削除時には、本アプリに保存された全データを削除します。</p>
+
+  <h2>第7条（プライバシーポリシーの変更）</h2>
+  <p>本ポリシーは必要に応じて変更することがあります。変更後のポリシーは本ページに掲載した時点で効力を生じます。</p>
+
+  <h2>第8条（お問い合わせ）</h2>
+  <p>本ポリシーに関するお問い合わせは以下までご連絡ください。</p>
+  <p>
+    開発者：Haruto Shimohira<br>
+    メールアドレス：haruto.shimohira1225@gmail.com
+  </p>
+
+  <p style="margin-top: 60px; color: #888; font-size: 13px;">以上</p>
+
+</body>
+</html>
